@@ -14,6 +14,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
+  { path: 'login', component: LoginComponent },
   // { path: 'search/:searchItem', component: HomeComponent },
   // { path: 'tag/:tag', component: HomeComponent },
   // { path: 'food/:id', component: FoodPageComponent },
