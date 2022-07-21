@@ -13,7 +13,7 @@ import { HomeComponent } from './home/home.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 
 const routes: Routes = [
-  // { path: '', component: HomeComponent },
+  { path: '', component: HomeComponent },
   // { path: 'search/:searchItem', component: HomeComponent },
   // { path: 'tag/:tag', component: HomeComponent },
   // { path: 'food/:id', component: FoodPageComponent },
