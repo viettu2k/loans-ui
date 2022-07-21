@@ -11,10 +11,12 @@ import { ContentComponent } from './content/content.component';
 import { LoginComponent } from './login/login.component';
 import { HomeComponent } from './home/home.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { RegisterComponent } from './register/register.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'login', component: LoginComponent },
+  { path: 'register', component: RegisterComponent },
   // { path: 'search/:searchItem', component: HomeComponent },
   // { path: 'tag/:tag', component: HomeComponent },
   // { path: 'food/:id', component: FoodPageComponent },
@@ -32,6 +34,7 @@ const routes: Routes = [
     LoginComponent,
     HomeComponent,
     DashboardComponent,
+    RegisterComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, RouterModule.forRoot(routes)],
   providers: [],
