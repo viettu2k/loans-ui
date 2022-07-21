@@ -22,7 +22,7 @@ const routes: Routes = [
   // { path: 'tag/:tag', component: HomeComponent },
   // { path: 'food/:id', component: FoodPageComponent },
   // { path: 'cart-page', component: CartPageComponent },
-  // { path: '**', component: NotFoundComponent },
+  { path: '**', redirectTo: '', pathMatch: 'full' },
 ];
 
 @NgModule({
